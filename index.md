@@ -34,7 +34,7 @@ For your second milestone, explain what you've worked on since your previous mil
 # First Milestone
 My first milestone was getting the robot part of the project to work. This involved attaching the motors, wheels, arduino, battery pack, and motor driver board to the chassis. I then had to correctly connect all of the parts together with wires. The hardest part about connecting the wires was finding the correct place to connect each wire. This is due to the fact that the motors are not oriented in the exact same way on the chassis so when attatching the wires I had to account for the orientation of the motor relative to all of the other motors. I then connected the arduino to my computer and was able to run code that made the robot drive. A challenge that I am going to have to solve in future milestones is the wiring of my robot. The wires are currently bent around eachother in loops to connect. This can lead to malfunctions due to the wires not touching eachother correctly. To solve this I need to sauter the wires into their correct places but this may prove a challenge because I have never sautered anything before.
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
+![Headstone Image](IMG_1263.jpg)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
