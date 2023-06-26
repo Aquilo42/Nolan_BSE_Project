@@ -1,5 +1,5 @@
 # Guesture Controlled Robot
-My Project is a guesture controlled robot. This project has two seperate parts, the robot, and the controller. The robot part of this project has 4 wheels and can drive around. The controller uses a bluetooth conection to the robot to tell it what to do, which is decided by the controller based on an accelerometr that is used to detect the motion of the controller. This means that by moving the controller in a certain way, you will be able to move the robot.
+My project is a guesture controlled robot. This project has two seperate parts, the robot, and the controller. The robot part of this project has 4 wheels and can drive around. The controller uses a bluetooth conection to the robot to tell it what to do, which is decided by the controller based on an accelerometr that is used to detect the motion of the controller. This means that by moving the controller in a certain way, you will be able to move the robot.
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
@@ -21,8 +21,8 @@ For your final milestone, explain the outcome of your project. Key details to in
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 # Second Milestone
-For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
-- Technical details of what you've accomplished and how they contribute to the final goal
+My second milestone was figuring out how to connect and configure the two bluetooth modules.
+- I had to insert both modules into their own 
 - What has been surprising about the project so far
 - Previous challenges you faced that you overcame
 - What needs to be completed before your final milestone 
@@ -32,7 +32,7 @@ For your second milestone, explain what you've worked on since your previous mil
 <iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 # First Milestone
-My first milestone was getting the robot part of the project to work. This involved attaching the motors, wheels, arduino, battery pack, and motor driver board to the chassis. I then had to correctly connect all of the parts together with wires. The hardest part about connecting the wires was finding the correct place to connect each wire. This is due to the fact that the motors are not oriented in the exact same way on the chassis so when attatching the wires I had to account for the orientation of the motor relative to all of the other motors. I then connected the arduino to my computer and was able to run code that made the robot drive. A challenge that I am going to have to solve in future milestones is the wiring of my robot. The wires are currently bent around eachother in loops to connect. This can lead to malfunctions due to the wires not touching eachother correctly. To solve this I need to sauter the wires into their correct places but this may prove a challenge because I have never sautered anything before.
+My first milestone was getting the robot part of the project to work. This involved attaching the motors, wheels, Arduino, battery pack, and motor driver board to the chassis. I then had to correctly connect all of the parts together with wires. The hardest part about connecting the wires was finding the correct place to connect each wire. This is due to the fact that the motors are not oriented in the exact same way on the chassis so when attatching the wires I had to account for the orientation of the motor relative to all of the other motors. I then connected the arduino to my computer and was able to run code that made the robot drive. A challenge that I am going to have to solve in future milestones is the wiring of my robot. The wire ends are currently connected by being bent together.. This can lead to malfunctions due to the wires not touching eachother correctly. To solve this I need to sauter the wires into their correct places but this may prove a challenge because I have never sautered anything before.
 
 ![Headstone Image](IMG_1263.jpg)
 
