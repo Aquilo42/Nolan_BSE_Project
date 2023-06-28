@@ -34,7 +34,7 @@ My second milestone was figuring out how to connect and configure the two blueto
 # First Milestone
 My first milestone was getting the robot part of the project to work. This involved attaching the motors, wheels, Arduino, battery pack, and motor driver board to the chassis. I then had to correctly connect all of the parts together with wires. The hardest part about connecting the wires was finding the correct place to connect each wire. This is due to the fact that the motors are not oriented in the exact same way on the chassis so when attatching the wires I had to account for the orientation of the motor relative to all of the other motors. I then connected the arduino to my computer and was able to run code that made the robot drive. A challenge that I am going to have to solve in future milestones is the wiring of my robot. The wire ends are currently connected by being bent together.. This can lead to malfunctions due to the wires not touching eachother correctly. To solve this I need to sauter the wires into their correct places but this may prove a challenge because I have never sautered anything before.
 
-![Headstone Image](IMG_1263.jpg)
+![Headstone Image](milestone1Image.jpg)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/aXAgCVaWgR0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
