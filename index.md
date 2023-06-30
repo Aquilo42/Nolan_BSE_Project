@@ -5,8 +5,6 @@ My project is a guesture controlled robot. This project has two seperate parts, 
 |:--:|:--:|:--:|:--:|
 | Nolan S. | Alameda High | Computer Science | Incoming Senior
 
-**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
-
 <div align="center">
   <img src="IMG_1309.jpg" width="560">
 </div>
@@ -268,4 +266,12 @@ void determineGesture()
 | Breadboards | Solderless Circuits | 9.99 | <a href="https://www.amazon.com/dp/B07DL13RZH/ref=redir_mobile_desktop?_encoding=UTF8&aaxitk=b163d500edcc33b8ecdb35867663512a&content-id=amzn1.sym.53aae2ac-0129-49a5-9c09-6530a9e11786%3Aamzn1.sym.53aae2ac-0129-49a5-9c09-6530a9e11786&hsa_cr_id=4991273630901&pd_rd_plhdr=t&pd_rd_r=e6730cd8-8e3e-463d-932b-2c49d394f510&pd_rd_w=jX1If&pd_rd_wg=pAAek&qid=1656710515&ref_=sbx_be_s_sparkle_mcd_asin_0_img&sr=1-1-a094db1c-5033-42c6-82a2-587d01f975e8"> Amazon </a> |
 |:--:|:--:|:--:|:--:|
 | Soldering Kit | Soldering all Wires | 30.00 | <a href="https://www.amazon.com/Soldering-Kit-Temperature-Desoldering-Electronics/dp/B07GTGGLXN/ref=asc_df_B07GTGGLXN/?tag=hyprod-20&linkCode=df0&hvadid=241999416883&hvpos=&hvnetw=g&hvrand=137463208067721732&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9031525&hvtargid=pla-590653449503&psc=1"> Amazon </a> |
+|:--:|:--:|:--:|:--:|
+| Velcro | Attaching parts to the Car | 9.99 | <a href="https://www.amazon.com/GOHOOK-Inch-Sticky-Back-Hook/dp/B08GSHFZYP/ref=sr_1_4?crid=3NVEKHZB0VS4&keywords=1+inch+strenco&qid=1688157474&s=hi&sprefix=1+inch+strenco%2Ctools%2C135&sr=1-4-catcorr"> Amazon </a> |
+|:--:|:--:|:--:|:--:|
+| Wires | Connecting all the parts | 16.94 | <a href="https://www.amazon.com/Gauge-Wire-Solid-Core-Hookup/dp/B08BBXTBL7/ref=sxin_17_pa_sp_search_thematic_sspa?content-id=amzn1.sym.2863236d-9ab1-4b59-b359-c63e8ec6c958%3Aamzn1.sym.2863236d-9ab1-4b59-b359-c63e8ec6c958&crid=M3CBYWOJTA7Z&cv_ct_cx=wires&keywords=wires&pd_rd_i=B08BBXTBL7&pd_rd_r=25819013-987a-4b5a-8193-acfcc6a718c7&pd_rd_w=bgHzV&pd_rd_wg=RsMen&pf_rd_p=2863236d-9ab1-4b59-b359-c63e8ec6c958&pf_rd_r=9PXM5PSCA5H97GP1WMDN&qid=1688157610&s=hi&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=wire%2Ctools%2C185&sr=1-26-bc460bb2-6511-44a2-b50d-536026dccc79-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM&psc=1"> Amazon </a> |
+|:--:|:--:|:--:|:--:|
+| Batteries | Power | 9.70 | <a href="https://www.amazon.com/AmazonBasics-Performance-Alkaline-Batteries-20-Pack/dp/B00NTCH52W/ref=sr_1_1_ffob_sspa?keywords=20+AA+batteries&qid=1688157701&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"> Amazon </a> |
+|:--:|:--:|:--:|:--:|
+| Battery Holder | Power | 6.99 | <a href="[https://www.amazon.com/AmazonBasics-Performance-Alkaline-Batteries-20-Pack/dp/B00NTCH52W/ref=sr_1_1_ffob_sspa?keywords=20+AA+batteries&qid=1688157701&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1](https://www.amazon.com/Pack-Battery-Holder-Bundle-QTEATAK/dp/B07WY3VMNN/ref=sr_1_2_sspa?crid=CAIFG9L4G523&keywords=aa+battery+holder&qid=1688157835&sprefix=aa+battery+holde%2Caps%2C160&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1)https://www.amazon.com/Pack-Battery-Holder-Bundle-QTEATAK/dp/B07WY3VMNN/ref=sr_1_2_sspa?crid=CAIFG9L4G523&keywords=aa+battery+holder&qid=1688157835&sprefix=aa+battery+holde%2Caps%2C160&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"> Amazon </a> |
 |:--:|:--:|:--:|:--:|
