@@ -7,7 +7,9 @@ My project is a guesture controlled robot. This project has two seperate parts, 
 
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
-![Headstone Image](logo.svg)
+<div align="center">
+  <img src="IMG_1309.jpg" width="560">
+</div>
   
 # Final Milestone
 My final milestone was completing the entire project. 
