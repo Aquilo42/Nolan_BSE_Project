@@ -16,7 +16,9 @@ My final milestone was completing the entire project.
 - While doing this project, I learned a lot about the hardware side of engineering, which is what I came to bluestamp for in the first place.
 - Overall, I had a great time while doing this project and hope that in the future I will be able to do more projects like this.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hqm0z477A-8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div align="center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/hqm0z477A-8" title="YouTube video player" frameborder="0"            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 # Second Milestone
 My second milestone was figuring out how to connect and configure the two bluetooth modules. 
@@ -25,7 +27,9 @@ My second milestone was figuring out how to connect and configure the two blueto
 - Eventually I figured this out and was able to pair the two modules.
 - Before completing my final milestone, I still have to connect the accelerometer to the controller and write all of the code for the project.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ZI7RggoU9yc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div align="center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/ZI7RggoU9yc" title="YouTube video player" frameborder="0"            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 # First Milestone
 My first milestone was getting the robot part of the project to work. 
@@ -34,12 +38,19 @@ My first milestone was getting the robot part of the project to work.
 - I then connected the arduino to my computer and was able to run code that made the robot drive.
 - A challenge that I am going to have to solve in future milestones is the wiring of my robot. The wire ends are currently connected by being bent together. This can lead to malfunctions due to the wires not touching eachother correctly. To solve this I need to sauter the wires into their correct places but this may prove a challenge because I have never sautered anything before.
 
-![Headstone Image](milestone1Image.jpg)
+<div align="center">
+  <img src="milestone1Image.jpg" width="560">
+</div>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/aXAgCVaWgR0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div align="center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/aXAgCVaWgR0" title="YouTube video player" frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 # Schematics 
-![Headstone Image](176963218-7c0eecbe-7689-48f5-b6ea-48579ae6fb1c.jpg)
+<div align="center">
+  <img src="176963218-7c0eecbe-7689-48f5-b6ea-48579ae6fb1c.jpg" width="560">
+</div>
 
 # Code
 
