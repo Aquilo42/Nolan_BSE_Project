@@ -5,6 +5,8 @@ My project is a guesture controlled robot. This project has two seperate parts, 
 |:--:|:--:|:--:|:--:|
 | Nolan S. | Alameda High | Computer Science | Incoming Senior
 
+
+
 <div align="center">
   <img src="IMG_1309.jpg" width="560">
 </div>
