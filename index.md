@@ -45,15 +45,197 @@ Here's where you'll put images of your schematics. [Tinkercad](https://www.tinke
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
 ```c++
-void setup() {
-  // put your setup code here, to run once:
-  Serial.begin(9600);
-  Serial.println("Hello World!");
+//Code for the car
+// This is to receive data from the other bluetooth module and read the gestures
+// The robot should move accordingly! 
+
+#include <SoftwareSerial.h>
+
+#define tx 2
+#define rx 3
+
+SoftwareSerial configBt(rx, tx);
+
+//character variable for command
+char c = "";
+
+//start at 50% duty cycle
+//int s = 120;
+
+//change based on motor pins
+int in1 = 4;
+int in2 = 5;
+int in3 = 6;
+int in4 = 7;
+
+void setup()
+{
+  //opens serial monitor and bluetooth serial monitor
+  Serial.begin(38400);
+  configBt.begin(38400);
+  pinMode(tx, OUTPUT);
+  pinMode(rx, INPUT);
+
+  //initializes all motor pins as outputs
+  pinMode(in1, OUTPUT);
+  pinMode(in2, OUTPUT);
+  pinMode(in3, OUTPUT);
+  pinMode(in4, OUTPUT);
 }
 
-void loop() {
-  // put your main code here, to run repeatedly:
+void loop()
+{
+  //checks for bluetooth data
+  if (configBt.available()){
+    //if available stores to command character
+    c = (char)configBt.read();
+    //prints to serial
+    Serial.println(c);
+  }
 
+  //acts based on character
+  switch(c){
+    
+    //forward case
+    case 'F':
+      forward();
+      break;
+      
+    //left case
+    case 'L':
+      left();
+      break;
+      
+    //right case
+    case 'R':
+      right();
+      break;
+      
+    //back case
+    case 'B':
+      back();
+      break;
+      
+    //default is to stop robot
+    case 'S':
+      freeze();
+    }
+}
+
+//moves robot forward 
+void forward(){
+  
+    //chages directions of motors
+    digitalWrite(in1, LOW);
+    digitalWrite(in2, HIGH);
+    digitalWrite(in3, HIGH);
+    digitalWrite(in4, LOW);
+
+  }
+
+//moves robot left
+void left(){
+
+    //changes directions of motors
+    digitalWrite(in1, LOW);
+    digitalWrite(in2, HIGH);
+    digitalWrite(in3, LOW);
+    digitalWrite(in4, HIGH);
+
+  }
+
+//moves robot right
+void right(){
+
+    //changes directions of motors
+    digitalWrite(in1, HIGH);
+    digitalWrite(in2, LOW);
+    digitalWrite(in3, HIGH);
+    digitalWrite(in4, LOW);
+
+  }
+
+//moves robot backwards
+void back(){
+
+    //changes directions of motors
+    digitalWrite(in1, HIGH);
+    digitalWrite(in2, LOW);
+    digitalWrite(in3, LOW);
+    digitalWrite(in4, HIGH);
+
+  }
+
+//stops robot
+void freeze(){
+
+    //changes directions of motors
+    digitalWrite(in1, LOW);
+    digitalWrite(in2, LOW);
+    digitalWrite(in3, LOW);
+    digitalWrite(in4, LOW);
+
+  }
+
+
+//Code for the controller
+#include <Wire.h>
+
+#define MPU6050_ADDRESS 0x68
+
+int16_t accelerometerX, accelerometerY, accelerometerZ;
+
+void setup()
+{
+  Wire.begin();
+  Serial1.begin(38400);
+
+  // Initialize MPU6050
+  Wire.beginTransmission(MPU6050_ADDRESS);
+  Wire.write(0x6B);  // PWR_MGMT_1 register
+  Wire.write(0);     // set to zero (wakes up the MPU6050)
+  Wire.endTransmission(true);
+
+  delay(100); // Delay to allow MPU6050 to stabilize
+}
+
+void loop()
+{
+  readAccelerometerData();
+  determineGesture();
+  delay(500);
+}
+
+void readAccelerometerData()
+{
+  Wire.beginTransmission(MPU6050_ADDRESS);
+  Wire.write(0x3B);  // starting with register 0x3B (ACCEL_XOUT_H)
+  Wire.endTransmission(false);
+  Wire.requestFrom(MPU6050_ADDRESS, 6, true);  // request a total of 6 registers
+
+  // read accelerometer data
+  accelerometerX = Wire.read() << 8 | Wire.read();
+  accelerometerY = Wire.read() << 8 | Wire.read();
+  accelerometerZ = Wire.read() << 8 | Wire.read();
+}
+
+void determineGesture()
+{
+  if (accelerometerY >= 6500) {
+    Serial1.write('F');
+  }
+  else if (accelerometerY <= -4000) {
+    Serial1.write('B');
+  }
+  else if (accelerometerX <= -3250) {
+    Serial1.write('L');
+  }
+  else if (accelerometerX >= 3250) {
+    Serial1.write('R');
+  }
+  else {
+    Serial1.write('S');
+  }
 }
 ```
 
