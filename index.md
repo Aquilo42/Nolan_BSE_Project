@@ -10,11 +10,7 @@ My project is a guesture controlled robot. This project has two seperate parts, 
 ![Headstone Image](logo.svg)
   
 # Final Milestone
-For your final milestone, explain the outcome of your project. Key details to include are:
-- What you've accomplished since your previous milestone
-- What your biggest challenges and triumphs were at BSE
-- A summary of key topics you learned about
-- What you hope to learn in the future after everything you've learned at BSE
+My final milestone was completing the entire project. Since the last milestone, I have written all of the code and connected the accelerometer to the controller. While doing this, I experienced many problems with the wiring. The hardest part about this project was due to the project having both hardware and software. This meant that if there was an error, I had to check both the hardware and the software. Because of this I was constantly double checking my wiring and my code in order for the whole project to continue working. While doing this project, I learned a lot about the hardware side of engineering, which is what I came to bluestamp for in the first place. Overall, I had a great time while doing this project and hope that in the future I will be able to do more projects like this.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hqm0z477A-8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
