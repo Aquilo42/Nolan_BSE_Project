@@ -16,9 +16,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 - A summary of key topics you learned about
 - What you hope to learn in the future after everything you've learned at BSE
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hqm0z477A-8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 # Second Milestone
 My second milestone was figuring out how to connect and configure the two bluetooth modules. I put both modules in pairing mode and sent commands to each to pair them. Putting them in pairing mode was a difficult task because there was a lot of wiring and power issues that I experienced while doing it. If wires were in the wrong place or if they were suppling too much power, it would look like it was in pairing mode, but none of the pairing commands would work. Eventually I figured this out and was able to pair the two modules. Before completing my final milestone, I still have to connect the accelerometer to the controller and write all of the code for the project.
