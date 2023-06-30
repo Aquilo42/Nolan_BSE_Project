@@ -10,17 +10,29 @@ My project is a guesture controlled robot. This project has two seperate parts, 
 ![Headstone Image](logo.svg)
   
 # Final Milestone
-My final milestone was completing the entire project. Since the last milestone, I have written all of the code and connected the accelerometer to the controller. While doing this, I experienced many problems with the wiring. The hardest part about this project was due to the project having both hardware and software. This meant that if there was an error, I had to check both the hardware and the software. Because of this I was constantly double checking my wiring and my code in order for the whole project to continue working. While doing this project, I learned a lot about the hardware side of engineering, which is what I came to bluestamp for in the first place. Overall, I had a great time while doing this project and hope that in the future I will be able to do more projects like this.
+My final milestone was completing the entire project. 
+- Since the last milestone, I have written all of the code and connected the accelerometer to the controller. 
+- The hardest part about this project was due to the project having both hardware and software. This meant that if there was an error, I had to check both the hardware and the software. Because of this I was constantly double checking my wiring and my code in order for the whole project to continue working.
+- While doing this project, I learned a lot about the hardware side of engineering, which is what I came to bluestamp for in the first place.
+- Overall, I had a great time while doing this project and hope that in the future I will be able to do more projects like this.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hqm0z477A-8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 # Second Milestone
-My second milestone was figuring out how to connect and configure the two bluetooth modules. I put both modules in pairing mode and sent commands to each to pair them. Putting them in pairing mode was a difficult task because there was a lot of wiring and power issues that I experienced while doing it. If wires were in the wrong place or if they were suppling too much power, it would look like it was in pairing mode, but none of the pairing commands would work. Eventually I figured this out and was able to pair the two modules. Before completing my final milestone, I still have to connect the accelerometer to the controller and write all of the code for the project.
+My second milestone was figuring out how to connect and configure the two bluetooth modules. 
+- I put both modules in pairing mode and sent commands to each to pair them.
+- Putting them in pairing mode was a difficult task because there was a lot of wiring and power issues that I experienced while doing it. If wires were in the wrong place or if they were suppling too much power, it would look like it was in pairing mode, but none of the pairing commands would work.
+- Eventually I figured this out and was able to pair the two modules.
+- Before completing my final milestone, I still have to connect the accelerometer to the controller and write all of the code for the project.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZI7RggoU9yc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 # First Milestone
-My first milestone was getting the robot part of the project to work. This involved attaching the motors, wheels, Arduino, battery pack, and motor driver board to the chassis. I then had to correctly connect all of the parts together with wires. The hardest part about connecting the wires was finding the correct place to connect each wire. This is due to the fact that the motors are not oriented in the exact same way on the chassis so when attatching the wires I had to account for the orientation of the motor relative to all of the other motors. I then connected the arduino to my computer and was able to run code that made the robot drive. A challenge that I am going to have to solve in future milestones is the wiring of my robot. The wire ends are currently connected by being bent together.. This can lead to malfunctions due to the wires not touching eachother correctly. To solve this I need to sauter the wires into their correct places but this may prove a challenge because I have never sautered anything before.
+My first milestone was getting the robot part of the project to work. 
+- This involved attaching the motors, wheels, Arduino, battery pack, and motor driver board to the chassis. I then had to correctly connect all of the parts together with wires.
+- The hardest part about connecting the wires was finding the correct place to connect each wire. This is due to the fact that the motors are not oriented in the exact same way on the chassis so when attatching the wires I had to account for the orientation of the motor relative to all of the other motors.
+- I then connected the arduino to my computer and was able to run code that made the robot drive.
+- A challenge that I am going to have to solve in future milestones is the wiring of my robot. The wire ends are currently connected by being bent together. This can lead to malfunctions due to the wires not touching eachother correctly. To solve this I need to sauter the wires into their correct places but this may prove a challenge because I have never sautered anything before.
 
 ![Headstone Image](milestone1Image.jpg)
 
